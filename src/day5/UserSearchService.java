@@ -10,7 +10,11 @@ public class UserSearchService {
     System.out.println("UserId : " + userId + " and term : " + term);
   }
 
-  public void searchX(String userId) {
+
+  public void searchX(String userId)
+  {
     System.out.println("UserId : " + userId);
   }
+
+
 }
