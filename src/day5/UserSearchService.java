@@ -6,7 +6,7 @@ public class UserSearchService {
     System.out.println("UserId : " + userId);
   }
 
-  public void searchTerm(String userId, String term) {
+  public void searchTermWithUserId(String userId, String term) {
     System.out.println("UserId : " + userId + " and term : " + term);
   }
 }
