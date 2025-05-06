@@ -9,4 +9,8 @@ public class UserSearchService {
   public void searchTermWithUserId(String userId, String term) {
     System.out.println("UserId : " + userId + " and term : " + term);
   }
+
+  public void searchX(String userId) {
+    System.out.println("UserId : " + userId);
+  }
 }
